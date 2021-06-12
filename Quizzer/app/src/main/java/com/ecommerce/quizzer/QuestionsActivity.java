@@ -254,9 +254,9 @@ public class QuestionsActivity extends AppCompatActivity {
     private void enableOption(boolean enable){
         for (int i=0;i<4;i++){
             optionsContainer.getChildAt(i).setEnabled(enable);
-            /*if (enable){
+            if (enable){
                 optionsContainer.getChildAt(i).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#989898")));
-            }*/
+            }
         }
     }
     private void getBookmarks(){
